@@ -12,12 +12,10 @@ export default async function Page() {
     <>
       <HeroSection />
       <Companies />
-      {/* <ClientSection /> */}
       <SphereMask />
-      {/* <PricingSection /> */}
       <SocialProofTestimonials />
       <ItinerarySection />
-      {/* <BentoSection /> */}
+      <CallToActionSection />
       <Particles
         className="absolute inset-0 -z-10"
         quantity={50}
