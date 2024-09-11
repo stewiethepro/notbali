@@ -90,7 +90,7 @@ const cardData: CardDataProps[] = [
       content:
         "Global team arrives in Auckland",
       image:
-        "/itinerary-day-1.png",
+        "/itinerary-1.png",
     },
     {
       id: 2,
@@ -98,15 +98,15 @@ const cardData: CardDataProps[] = [
       content:
         "Full team in person Track Meet & strategy day with Matt & Connor",
       image:
-        "https://images.unsplash.com/photo-1686170287433-c95faf6d3608?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8",
+        "/itinerary-2.png",
     },
     {
       id: 3,
       title: "December 11th",
       content:
-        "Fly to Queenstown babyyy!",
+        "Fly to Queenstown",
       image:
-        "https://images.unsplash.com/photo-1720378042271-60aff1e1c538?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+        "/itinerary-3.png",
     },
     {
       id: 4,
@@ -114,7 +114,7 @@ const cardData: CardDataProps[] = [
       content:
         "Homecoming Night",
       image:
-        "https://images.unsplash.com/photo-1666882990322-e7f3b8df4f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+        "/itinerary-4.png",
     },
     {
       id: 5,
@@ -122,7 +122,7 @@ const cardData: CardDataProps[] = [
       content:
         "Final goodbye and flights home",
       image:
-        "https://images.unsplash.com/photo-1666882990322-e7f3b8df4f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+        "/itinerary-5.png",
     },
   ];
 
@@ -223,12 +223,9 @@ const Feature = ({
       <div className="py-14">
         <div className="container flex w-full flex-col items-center justify-center p-4">
           <div className="mx-auto max-w-5xl text-center">
-            <h4 className="text-xl font-bold tracking-tight text-black dark:text-white">
-              Tracktinerary
-            </h4>
-            <h2 className="text-4xl font-bold tracking-tight text-black dark:text-white sm:text-6xl">
-              What's the plan?
-            </h2>
+            <h3 className="text-center text-sm font-semibold text-gray-500">
+                TRACKTINERARY
+            </h3>
           </div>
           <div className="mx-auto my-12 grid h-full max-w-5xl grid-cols-5 gap-x-10">
             <div

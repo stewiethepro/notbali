@@ -11,7 +11,7 @@ const fontSans = FontSans({
 });
 export const metadata: Metadata = {
   title: "NotBali",
-  description: "Fostering connection, anywhere but Bali",
+  description: "Fostering connection anywhere. Except Bali.",
 };
 
 export default function RootLayout({
