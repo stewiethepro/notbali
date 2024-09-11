@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 import { StarFilledIcon } from "@radix-ui/react-icons";
+import { log } from "console";
 
 const Highlight = ({
   children,
@@ -84,7 +85,7 @@ const testimonials = [
         Am I
         <Highlight>
           NotBali
-        </Highlight>{" "}
+        </Highlight>
         ?
       </p>
     ),
@@ -104,44 +105,43 @@ const testimonials = [
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Tom Stevenson",
+    role: "Survey Specialist",
+    img: "/tom-stevenson.png",
     description: (
       <p>
         NotBali is 
         <Highlight>
-          BRAT
+          saving $42 every week
         </Highlight>{" "}
-        .
+        by paying parking fines, not fees 🧠
       </p>
     ),
   },
   {
-    name: "Luke Amundson",
-    role: "Head of Sales ANZ",
-    img: "/luke-amundson.jpeg",
+    name: "Dan Danilov",
+    role: "Head of Strategy & Operations",
+    img: "/dan-danilov.jpeg",
     description: (
       <p>
-        Am I
+        NotBali was 
         <Highlight>
-          NotBali
+        not approved
         </Highlight>{" "}
-        ?
+        by the board.
       </p>
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Keniel Yao",
+    role: "Data Science Lead",
+    img: "/keniel-yao.png",
     description: (
       <p>
-        NotBali is 
         <Highlight>
-          BRAT
-        </Highlight>{" "}
-        .
+        Bayesian posterior distributions 
+        </Highlight>
+        affirm a 95% credible interval for NotBali's superiority in enhancing subjective well-being.
       </p>
     ),
   },
@@ -151,25 +151,23 @@ const testimonials = [
     img: "/emmie-hwang.jpeg",
     description: (
       <p>
-        This landing page is so
+        NotBali is 
         <Highlight>
-          painfully millenial
+          so wildly millenial
         </Highlight>{" "}
-        I can't even bring myself to doom scroll it.
       </p>
     ),
   },
   {
-    name: "Emmie Hwang",
-    role: "Community & Engagement Lead",
-    img: "/emmie-hwang.jpeg",
+    name: "Connor Archbold",
+    role: "Co-Founder & Co-CEO",
+    img: "/connor-archbold.png",
     description: (
       <p>
-        This landing page is so
+        We should be
         <Highlight>
-          wildly millenial
-        </Highlight>{" "}
-        but the concept slays 💅
+          doing NotBali in Bali
+        </Highlight>, we're not thinking big enough.
       </p>
     ),
   },
@@ -193,25 +191,23 @@ const testimonials = [
     img: "/jess-negus.png",
     description: (
       <p>
-        I had such a 
+        NotBali is
         <Highlight>
           wholesome
-        </Highlight>weekend, honestly it was just so 
-        <Highlight>
-          wholesome
-        </Highlight>, so NotBali 💜
+        </Highlight>
+        💜
       </p>
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Matt Herbert",
+    role: "Co-Founder & Co-CEO",
+    img: "/matt-herbert.jpeg",
     description: (
       <p>
-        NotBali is 
+        I wanted to go to
         <Highlight>
-          BRAT
+          Bali
         </Highlight>
         .
       </p>
@@ -246,16 +242,16 @@ const testimonials = [
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Cap'n Caitlin Filmer",
+    role: "Head of Customer",
+    img: "/caitlin-filmer.jpeg",
     description: (
       <p>
-        NotBali is 
+        Arrr, NotBali be the
         <Highlight>
-          BRAT
+        finest treasure
         </Highlight>
-        .
+        I've yet to discover! 
       </p>
     ),
   },
