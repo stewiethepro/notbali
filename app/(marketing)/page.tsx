@@ -6,8 +6,6 @@ import Companies from "@/components/landing/companies-section";
 import SocialProofTestimonials from "@/components/landing/testimonials-section";
 import Particles from "@/components/magicui/particles";
 import { SphereMask } from "@/components/magicui/sphere-mask";
-import BentoSection from "@/components/landing/bento-section";
-import GraphSection from "@/components/landing/graph-section";
 import ItinerarySection from "@/components/landing/itinerary-section";
 export default async function Page() {
   return (
