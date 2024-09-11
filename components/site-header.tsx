@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { AlignJustify, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const menuItem = [
   {
@@ -119,25 +120,26 @@ export function SiteHeader() {
               href="/"
               onClick={createLinkedinMessage}
               >
-              🌶️ Hype
+              <LinkedInLogoIcon className="mr-2" /> Hype
             </Link>
             <Link
               className={cn(
                 buttonVariants({ variant: "default" }),
-                "mr-6 text-sm"
+                "text-sm"
               )}
               href="https://tracksuitworkspace.slack.com/archives/C07M16TBXCK"
+              target="_blank"
             >
               🏝️ Join
             </Link>
           </div>
-          <button
+          {/* <button
             className="ml-6 md:hidden"
             onClick={() => setHamburgerMenuIsOpen((open) => !open)}
           >
             <span className="sr-only">Toggle menu</span>
             {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
-          </button>
+          </button> */}
         </div>
       </header>
       <AnimatePresence>

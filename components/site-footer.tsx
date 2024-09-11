@@ -1,4 +1,4 @@
-import { DiscordLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { LinkedInLogoIcon, MagicWandIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
@@ -75,14 +75,9 @@ const footerNavs = [
 
 const footerSocials = [
   {
-    href: "",
-    name: "Discord",
-    icon: <DiscordLogoIcon className="h-4 w-4" />,
-  },
-  {
-    href: "",
-    name: "Twitter",
-    icon: <TwitterLogoIcon className="h-4 w-4" />,
+    href: "https://tracksuitworkspace.slack.com/archives/C07M16TBXCK",
+    name: "Slack",
+    icon: <MagicWandIcon className="h-4 w-4" />,
   },
 ];
 
