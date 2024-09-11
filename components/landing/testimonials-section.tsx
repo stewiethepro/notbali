@@ -172,15 +172,15 @@ const testimonials = [
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Madi Ostoja",
+    role: "Senior Software Engineer",
+    img: "/madi-ostoja.jpeg",
     description: (
       <p>
         NotBali is 
         <Highlight>
-          BRAT
-        </Highlight>{" "}
+          watching sportsball
+        </Highlight> on a summer's eve
         .
       </p>
     ),
@@ -293,7 +293,7 @@ export default function SocialProofTestimonials() {
                       "[--duration:70s]": i === 3,
                     })}
                   >
-                    {testimonials.slice(i * 3, (i + 1) * 3).map((card, idx) => (
+                    {testimonials.slice(i * 3, (i + 1) * 9).map((card, idx) => (
                       <TestimonialCard {...card} key={idx} />
                     ))}
                   </Marquee>
