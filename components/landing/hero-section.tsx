@@ -14,7 +14,7 @@ import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 
 const ease = [0.16, 1, 0.3, 1];
 
-export const Highlight = ({
+const Highlight = ({
   children,
   className,
 }: {

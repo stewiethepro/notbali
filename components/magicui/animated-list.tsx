@@ -3,7 +3,7 @@
 import React, { ReactElement, useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-export interface AnimatedListProps {
+interface AnimatedListProps {
   className?: string;
   children: React.ReactNode;
   delay?: number;
@@ -43,7 +43,7 @@ export const AnimatedList = React.memo(
 
 AnimatedList.displayName = "AnimatedList";
 
-export function AnimatedListItem({ children }: { children: React.ReactNode }) {
+function AnimatedListItem({ children }: { children: React.ReactNode }) {
   const animations = {
     initial: { scale: 0, opacity: 0 },
     animate: { scale: 1, opacity: 1, originY: 0 },

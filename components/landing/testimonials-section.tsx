@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 import { StarFilledIcon } from "@radix-ui/react-icons";
 
-export const Highlight = ({
+const Highlight = ({
   children,
   className,
 }: {
@@ -21,7 +21,7 @@ export const Highlight = ({
   );
 };
 
-export interface TestimonialCardProps {
+interface TestimonialCardProps {
   name: string;
   role: string;
   img?: string;
@@ -30,7 +30,7 @@ export interface TestimonialCardProps {
   [key: string]: any;
 }
 
-export const TestimonialCard = ({
+const TestimonialCard = ({
   description,
   name,
   img,
