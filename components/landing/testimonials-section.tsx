@@ -133,6 +133,19 @@ const testimonials = [
     ),
   },
   {
+    name: "Emmie Hwang",
+    role: "Community & Engagement Lead",
+    img: "/emmie-hwang.jpeg",
+    description: (
+      <p>
+        NotBali is 
+        <Highlight>
+          so wildly millenial.
+        </Highlight>
+      </p>
+    ),
+  },
+  {
     name: "Keniel Yao",
     role: "Data Science Lead",
     img: "/keniel-yao.png",
@@ -142,19 +155,6 @@ const testimonials = [
         Bayesian posterior distributions 
         </Highlight>
         affirm a 95% credible interval for NotBali's superiority in enhancing subjective well-being.
-      </p>
-    ),
-  },
-  {
-    name: "Emmie Hwang",
-    role: "Community & Engagement Lead",
-    img: "/emmie-hwang.jpeg",
-    description: (
-      <p>
-        NotBali is 
-        <Highlight>
-          so wildly millenial
-        </Highlight>{" "}
       </p>
     ),
   },
@@ -180,8 +180,7 @@ const testimonials = [
         NotBali is 
         <Highlight>
           watching sportsball
-        </Highlight> on a summer's eve
-        .
+        </Highlight> on a summer's eve.
       </p>
     ),
   },
@@ -214,14 +213,14 @@ const testimonials = [
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Lauren Smyth",
+    role: "Brand Design Lead",
+    img: "/lauren-smyth.jpeg",
     description: (
       <p>
-        NotBali is 
+        NotBali is not
         <Highlight>
-          BRAT
+        aligned with our brand identity
         </Highlight>
         .
       </p>
@@ -256,16 +255,27 @@ const testimonials = [
     ),
   },
   {
-    name: "Stuart Donald",
-    role: "Head of Engineering",
-    img: "/stuart-donald.jpeg",
+    name: "Barry",
+    role: "Chief Lawn Strategy and Execution Officer",
+    img: "/barry.png",
     description: (
       <p>
-        NotBali is 
+        I was told there would be a
         <Highlight>
-          BRAT
-        </Highlight>{" "}
-        .
+          NotBali photoshoot
+        </Highlight>.
+      </p>
+    ),
+  },
+  {
+    name: "Woody",
+    role: "Chief Lawn Strategy and Execution Officer",
+    img: "/woody.jpg",
+    description: (
+      <p> 
+        <Highlight>
+          woof
+        </Highlight>
       </p>
     ),
   },
