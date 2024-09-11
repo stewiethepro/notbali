@@ -79,8 +79,8 @@ export default function HeroSection() {
         Fostering connection anywhere.
         <br className="hidden md:block" /> <Highlight> Except Bali.</Highlight>
       </p>
-      <ConfettiButton className="bg-trackpurple-300 hover:bg-trackpurple-400">
-      <span>Yeeeeewwww! 🎉</span>
+      <ConfettiButton className="hover:bg-trackpurple-200 hover:text-trackpurple-800">
+      <span>Yeeeeewwww 🎉</span>
       </ConfettiButton>
       {/* <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]">
         <span>Manifest NotBali </span>

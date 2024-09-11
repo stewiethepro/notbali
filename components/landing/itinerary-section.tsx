@@ -220,7 +220,7 @@ const Feature = ({
 
   return (
     <section ref={ref} id="features">
-      <div className="py-14">
+      <div className="py-14 pb-28">
         <div className="container flex w-full flex-col items-center justify-center p-4">
           <div className="mx-auto max-w-5xl text-center">
             <h3 className="text-center text-sm font-semibold text-gray-500">
