@@ -1,4 +1,4 @@
-import Ripple from "@/registry/components/magicui/ripple";
+import Ripple from "@/components/magicui/ripple";
 
 export default function RippleDemo() {
   return (

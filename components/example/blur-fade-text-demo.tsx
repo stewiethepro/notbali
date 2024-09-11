@@ -1,4 +1,4 @@
-import BlurFade from "@/registry/components/magicui/blur-fade";
+import BlurFade from "@/components/magicui/blur-fade";
 
 export default function BlurFadeTextDemo() {
   return (
