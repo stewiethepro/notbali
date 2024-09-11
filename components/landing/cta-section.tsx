@@ -240,7 +240,7 @@ const ReviewCard = ({
   img: string;
   name: string;
   username: string;
-  body: string;
+  body: React.ReactNode;
 }) => {
   return (
     <figure
