@@ -1,4 +1,4 @@
-import Safari from "@/registry/components/magicui/safari";
+import Safari from "@/components/magicui/safari";
 
 export default function SafariDemo() {
   return (
