@@ -269,7 +269,7 @@ const testimonials = [
   },
   {
     name: "Woody",
-    role: "Chief Lawn Strategy and Execution Officer",
+    role: "Sausage-shaped Dog",
     img: "/woody.jpg",
     description: (
       <p> 

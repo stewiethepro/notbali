@@ -127,10 +127,10 @@ export function SiteFooter() {
           <div className="mb-12 flex-col flex gap-4">
             <Link href="/" className="flex items-center gap-2">
               <span className="self-center text-2xl font-serif font-extrabold whitespace-nowrap dark:text-white">
-                NotBali
+              NotBali
               </span>
             </Link>
-            <p className="max-w-xs">Fostering connection anywhere. <br /><Highlight>Except Bali</Highlight>.</p>
+            <p className="max-w-xs">Fostering connection anywhere.<br /><Highlight>Except Bali</Highlight>.</p>
           </div>
             {/* {footerSocials.map((social) => (
               <Link

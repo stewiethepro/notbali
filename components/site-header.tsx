@@ -77,6 +77,13 @@ export function SiteHeader() {
     },
   };
 
+  const createLinkedinMessage = () => { 
+    const message = `Babe wake up, NotBali just launched @Tracksuit #homecoming2024`;
+    const encodedMessage = encodeURIComponent(message);
+    const linkedinUrl = `https://www.linkedin.com/shareArticle?mini=true&text=${encodedMessage}`;
+    window.open(linkedinUrl, '_blank');
+  };
+
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
 
   useEffect(() => {
@@ -104,17 +111,24 @@ export function SiteHeader() {
           </Link>
 
           <div className="ml-auto flex h-full items-center">
-            <Link className="mr-6 text-sm" href="/signin">
-              Log in
-            </Link>
-            <Link
+            <Link 
               className={cn(
                 buttonVariants({ variant: "secondary" }),
                 "mr-6 text-sm"
+              )} 
+              href="/"
+              onClick={createLinkedinMessage}
+              >
+              🌶️ Hype
+            </Link>
+            <Link
+              className={cn(
+                buttonVariants({ variant: "default" }),
+                "mr-6 text-sm"
               )}
-              href="/signup"
+              href="https://tracksuitworkspace.slack.com/archives/C07M16TBXCK"
             >
-              Sign up
+              🏝️ Join
             </Link>
           </div>
           <button
