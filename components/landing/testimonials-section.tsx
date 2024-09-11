@@ -77,16 +77,28 @@ const TestimonialCard = ({
 
 const testimonials = [
   {
-    name: "Luke Amundson",
-    role: "Head of Sales ANZ",
-    img: "/luke-amundson.jpeg",
+    name: "Connor Archbold",
+    role: "Co-Founder & Co-CEO",
+    img: "/connor-archbold.png",
     description: (
       <p>
-        Am I
+        We should be
         <Highlight>
-          NotBali
+          doing NotBali in Bali
+        </Highlight>, we're not thinking big enough.
+      </p>
+    ),
+  },
+  {
+    name: "Keniel Yao",
+    role: "Data Science Lead",
+    img: "/keniel-yao.png",
+    description: (
+      <p>
+        <Highlight>
+        Bayesian posterior distributions 
         </Highlight>
-        ?
+        affirm a 95% credible interval for NotBali's superiority in enhancing subjective well-being.
       </p>
     ),
   },
@@ -146,28 +158,16 @@ const testimonials = [
     ),
   },
   {
-    name: "Keniel Yao",
-    role: "Data Science Lead",
-    img: "/keniel-yao.png",
+    name: "Luke Amundson",
+    role: "Head of Sales ANZ",
+    img: "/luke-amundson.jpeg",
     description: (
       <p>
+        Am I
         <Highlight>
-        Bayesian posterior distributions 
+          NotBali
         </Highlight>
-        affirm a 95% credible interval for NotBali's superiority in enhancing subjective well-being.
-      </p>
-    ),
-  },
-  {
-    name: "Connor Archbold",
-    role: "Co-Founder & Co-CEO",
-    img: "/connor-archbold.png",
-    description: (
-      <p>
-        We should be
-        <Highlight>
-          doing NotBali in Bali
-        </Highlight>, we're not thinking big enough.
+        ?
       </p>
     ),
   },
@@ -303,7 +303,7 @@ export default function SocialProofTestimonials() {
                       "[--duration:70s]": i === 3,
                     })}
                   >
-                    {testimonials.slice(i * 3, (i + 1) * 9).map((card, idx) => (
+                    {testimonials.slice(i * 3, (i + 1) * 14).map((card, idx) => (
                       <TestimonialCard {...card} key={idx} />
                     ))}
                   </Marquee>
